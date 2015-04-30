@@ -8,13 +8,16 @@ bower install koco-modal
 
 ## Usage with KOCO
 
-The `koco-modal` component comes with knockout component register function. So, in this case you only have to include this script in the `startup.js` file like so:
+The `koco-modal` can be initialized using the [knockout-utilities](https://github.com/cbcrc/knockout-utilities) `registerComponent` function like so:
 
 ```javascript
-// startup.js
-define([..., 'bower_components/koco-modal/src/koco-modal'], 
-  function(...) {
+// components.js
+...
+koUtilities.registerComponent('modal', {
+  htmlOnly: true,
+  basePath: 'bower_components/koco-modal/src'
 });
+...
 ```
 
 ## Creating a modal
