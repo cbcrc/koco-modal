@@ -17,6 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "knockout-utilities": "~0.2.2"
+    "knockout-utilities": "~0.2.2",
+    "bootstrap": "~3.3.4"
   }
 }
