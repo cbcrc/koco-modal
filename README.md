@@ -1,3 +1,5 @@
+# DEPRECATED: Now comes within [koco-modaler](https://github.com/cbcrc/koco-modaler)
+
 # koco-modal
 Modal wrapper when creating a new modal using the [koco generator](https://github.com/cbcrc/generator-koco).
 
