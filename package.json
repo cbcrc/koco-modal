@@ -1,11 +1,15 @@
 {
-  "name": "bootstrap-modal",
-  "version": "0.1.0",
-  "description": "Bootstrap modal",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "MIT"
+    "name": "koco-modal",
+    "version": "0.1.0",
+    "authors": [
+        "fcharest <frederik.charest@radio-canada.ca>"
+    ],
+    "description": "Knockout component modal",
+    "license": "MIT",
+    "scripts": {
+        "build": "rm -rf dist && mkdir dist && cp -r src/* dist && rm -rf dist/*.js && babel src --out-dir dist --modules umd --presets es2015,stage-0"
+    },
+    "dependencies": {
+        "bootstrap": "^3.3.4"
+    }
 }
